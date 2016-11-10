@@ -8,6 +8,10 @@ VS Code extension that sorts package.json, bower.json, imports, etc.
 
 * package.json
 * bower.json
+
+## To do
+
+* Sort based on standard package.json order
 * TypeScript imports
 
 **Enjoy!**
