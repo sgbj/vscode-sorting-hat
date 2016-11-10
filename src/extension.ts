@@ -31,7 +31,7 @@ export function activate(context: vscode.ExtensionContext) {
 
         if (!sorter) {
             vscode.window.showQuickPick(sorters.map(s => s.name), {
-                placeHolder: 'Couldn\'t find a suitable sorter. What do you want me to treat this file as?'
+                placeHolder: 'What do you want me to do?'
             }).then(result => {
                 if (!result) {
                     return;
