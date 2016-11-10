@@ -54,7 +54,7 @@ export function deactivate() {
 
 sorters.push({
     name: 'package.json',
-    pattern: /^package.json$/i,
+    pattern: /package.json$/i,
     sort: () => {
         let doc = vscode.window.activeTextEditor.document;
         let text = vscode.window.activeTextEditor.document.getText();
@@ -73,7 +73,7 @@ sorters.push({
 
 sorters.push({
     name: 'bower.json',
-    pattern: /^bower.json$/i,
+    pattern: /bower.json$/i,
     sort: () => {
         let doc = vscode.window.activeTextEditor.document;
         let text = vscode.window.activeTextEditor.document.getText();
