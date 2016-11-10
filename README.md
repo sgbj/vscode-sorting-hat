@@ -10,4 +10,4 @@ VS Code extension that sorts package.json, bower.json, imports, etc.
 * bower.json
 * TypeScript imports
 
-**Enjoy!**
+## Enjoy!
